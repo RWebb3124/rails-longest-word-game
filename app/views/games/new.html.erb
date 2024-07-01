@@ -1,0 +1,9 @@
+<div class="container" display="flexbox">
+  <% @numbers.each do |number| %>
+    <div className="container d-inline-flex">
+       <p className="text-nowrap">
+        <%= number %>
+      </p>
+    </div>
+  <% end %>
+</div>
